@@ -8,6 +8,14 @@ The entire application relies on a single component that dynamically swaps its c
 
 ## How to use
 
+Steps:
+
+- Go to [https://accelego-test.vercel.app/](https://accelego-test.vercel.app/).
+- Browse the random quotes
+- Login or register an account using listed emails below and any password to add quotes to favourites.
+- Go to user page to browse favourited quotes (the button before logout button).
+- Search a random quote based on anime's title or character using the search input.
+
 Due to limitations of `animechan`'s API, random quote list request will be limited safely to 50 to avoid the block of too many or frequent requests.
 
 ```jsx
@@ -23,7 +31,7 @@ Due to limitations of `animechan`'s API, random quote list request will be limit
 >
 ```
 
-And due to limitations of `reqres`'s API, register or login method can only work using one these `email`s:
+And due to limitations of `reqres`'s API, register or login method can only work using one these emails:
 
 ```js
 [
@@ -113,13 +121,6 @@ And due to limitations of `reqres`'s API, register or login method can only work
   },
 ];
 ```
-
-Steps:
-
-- Browse the random quotes
-- Login or register an account using listed emails above and any password to add quotes to favourites.
-- Go to user page to browse favourited quotes (the button before logout button).
-- Search a random quote based on anime's title or character using the search input.
 
 ## How it works
 
