@@ -1,0 +1,27 @@
+{
+  "name": "accelego",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.0",
+    "antd": "^5.14.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-infinite-scroll-component": "^6.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.3.0"
+  },
+  "proxy": "http://127.0.0.1:3000"
+}
